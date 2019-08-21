@@ -5,7 +5,12 @@ public class Student {
     private double creditHoursEarned;
     private double pointsEarned;
 
+    public Student() {
+        id = 9999;
+        pointsEarned = 12;
+        creditHoursEarned = 3;
 
+    }
 
     public int getId() {
         return id;
@@ -32,7 +37,7 @@ public class Student {
     }
 
 
-    public double gpa(){
+    public double gpa() {
 
         return pointsEarned / creditHoursEarned;
 
