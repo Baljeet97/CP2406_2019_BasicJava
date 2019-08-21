@@ -7,15 +7,23 @@ import java.util.Scanner;
 /*GameTest is not working, need to use win and count to make it work.*/
 public class Game {
 
+    int count;
+    int wins;
+    private Random random = new Random();
+    int secret;
+    public Game(int min, int max) {
+        secret = min + random.nextInt(max-min + 1);
+    }
+
+
     public static void main(String[] args) {
 
-        Random random = new Random();
-        int secret = random.nextInt(10) + 1;
-
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Guess a Number :");
+        Game game = new Game(1,10);
+        System.out.println("Guess a Number between 0 and 10: ");
         int userInput = scanner.nextInt();
-        if (userInput == secret) {
+        game.makeGuess(userInput);
+        if (game.wins > 0) {
 
             System.out.println("You won");
         } else {
@@ -26,19 +34,12 @@ public class Game {
 
     }
 
-}
 
-//    private Random random = new Random();
-//    int secret = random.nextInt(10) + 1;
-//
-//    int count;
-//    int wins;
-//
-//    void makeGuess(int value){
-//        count++;
-//            if (value == secret){
-//                wins++;
-//        }
-//
-//    }
-//}
+    void makeGuess(int value){
+        count++;
+            if (value == secret){
+                wins++;
+        }
+
+    }
+}
