@@ -9,7 +9,7 @@ public class Sandwich {
 
 
     Sandwich(String ingredient, String breadType, double price){
-        this.ingredient = ingredient;
+        setIngredient(ingredient);
         this.breadType = breadType;
         this.price = price;
     }

@@ -25,25 +25,23 @@ class TestStudent {
 
 
     @Test
-    void checkGPA(){
+    void checkGPA() {
         Student student = new Student();
         student.setPointsEarned(10);
         student.setCreditHoursEarned(2);
-        assertEquals(10/2, student.gpa(),0); // didn't understand the "delta"
+        assertEquals(10 / 2, student.gpa(), 0); // didn't understand the "delta"
 
 
     }
 
 
-
-
     @Test
-    void initializer(){
+    void initializer() {
         Student student = new Student();
         assertEquals(student.getId(), 9999);
-        assertEquals(student.getPointsEarned(), 12,0);
-        assertEquals(student.getCreditHoursEarned(), 3,0);
-        assertEquals(student.gpa(), 4.0,0);
+        assertEquals(student.getPointsEarned(), 12, 0);
+        assertEquals(student.getCreditHoursEarned(), 3, 0);
+        assertEquals(student.gpa(), 4.0, 0);
     }
 }
 
