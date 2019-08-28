@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugFive4.java
 // Outputs highest of four numbers

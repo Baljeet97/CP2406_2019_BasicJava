@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 // DebugSix3.java
 // Prompt user for value to start
 // Value must be between 1 and 20 inclusive

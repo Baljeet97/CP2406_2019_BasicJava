@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 public class DiagonalOs {
 

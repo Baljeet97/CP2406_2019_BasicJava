@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugFive3.java
 // Determines whether item number on order is valid

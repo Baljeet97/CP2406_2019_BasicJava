@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 
 // Displays 5 random numbers between

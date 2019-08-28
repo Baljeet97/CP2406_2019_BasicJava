@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugSix2.java
 // Display every character between Unicode 65 and 122

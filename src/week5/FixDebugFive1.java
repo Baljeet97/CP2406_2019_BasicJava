@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugFive1
 // Adds your lunch bill

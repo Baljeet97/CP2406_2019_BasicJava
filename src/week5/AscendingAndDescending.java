@@ -1,6 +1,5 @@
-package Week5;
+package week5;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class AscendingAndDescending {
