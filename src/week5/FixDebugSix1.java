@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugSix1.java
 // Start with a penny

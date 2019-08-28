@@ -1,4 +1,4 @@
-package Week5;
+package week5;
 
 // DebugFive2.java
 // Decides if two numbers are evenly divisible
