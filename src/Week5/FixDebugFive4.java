@@ -8,7 +8,7 @@ import javax.swing.*;
 public class FixDebugFive4 {
     public static void main(String[] args) {
 
-    
+
         int one, two, three, four;
         String str, output;
         str = JOptionPane.showInputDialog(null, "Enter an integer");
