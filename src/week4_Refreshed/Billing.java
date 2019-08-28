@@ -5,23 +5,22 @@ public class Billing {
 
 
     public double computeBill(int price) {
-        return (price + (price + TAX));
+        return (price + (price * TAX));
 
     }
 
     public double computeBill(int price, int numOfBooks) {
 
-        double tax = price + TAX;
+        double tax = price * TAX;
         double totalCost = price * numOfBooks;
         return tax + totalCost;
-
 
     }
 
 
     public double computeBill(int price, int numOfBooks, double coupon) {
         double totalCost = (price * numOfBooks) - coupon;
-        double tax = price + TAX;
+        double tax = price * TAX;
         return tax + totalCost;
 
     }
