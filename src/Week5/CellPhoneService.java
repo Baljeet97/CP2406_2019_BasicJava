@@ -21,18 +21,18 @@ public class CellPhoneService {
 
         if (minutes < 500) {
             if (messages == 0 && data == 0)
-                recommendation += "Plan A @ $49 per month";
+                recommendation += "Plan A : $49 per month";
             else
-                recommendation += "Plan B @ $55 per month";
+                recommendation += "Plan B : $55 per month";
         } else {
             if (messages <= 100 && data == 0)
-                recommendation += "Plan C @ $61 per month";
+                recommendation += "Plan C : $61 per month";
             else if (messages > 100 && data == 0)
-                recommendation += "Plan D @ $70 per month";
+                recommendation += "Plan D : $70 per month";
             else if (messages <= 100 && data <= 2)
-                recommendation += "Plan E @ $79 per month";
+                recommendation += "Plan E : $79 per month";
             else
-                recommendation += "Plan F @ $87 per month";
+                recommendation += "Plan F : $87 per month";
         }
 
         System.out.println(recommendation);
