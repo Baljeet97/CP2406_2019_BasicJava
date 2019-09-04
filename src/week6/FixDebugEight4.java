@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class FixDebugEight4 {
     public static void main(String[] args) {
         int y;
-        ArrayList<String> array = new ArrayList<String>();
+        ArrayList<String> array = new ArrayList<>();
         String entry;
         final String STOP = "XXX";
         StringBuilder message = new
