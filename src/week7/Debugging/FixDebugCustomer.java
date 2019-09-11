@@ -5,7 +5,7 @@ public class FixDebugCustomer {
     private String name;
     double creditLimit;
 
-    public FixDebugCustomer(int id, String name, double credit) {
+    FixDebugCustomer(int id, String name, double credit) {
         idNumber = id;
         this.name = name;
         creditLimit = credit;
