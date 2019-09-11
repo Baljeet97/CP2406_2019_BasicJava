@@ -4,7 +4,7 @@ public class FixDebugPlay {
     String title;
     String author;
 
-    public FixDebugPlay(String title, String author) {
+    FixDebugPlay(String title, String author) {
         this.title = title;
         this.author = author;
     }
