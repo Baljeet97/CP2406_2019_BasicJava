@@ -1,9 +1,9 @@
 package week7.Debugging;
 
-public class DebugBook {
+public class FixDebugBook {
     int pages;
 
-    public DebugBook(int pgs) {
+    public FixDebugBook(int pgs) {
         pages = pgs;
     }
 

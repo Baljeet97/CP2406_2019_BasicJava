@@ -2,12 +2,12 @@ package week7.Debugging;
 
 import javax.swing.*;
 
-public class DebugPhoneBook extends DebugBook {
+public class FixDebugPhoneBook extends FixDebugBook {
     private String area;
     private String size;
     private final int CUTOFF = 30;
 
-    DebugPhoneBook(int pages, String city) {
+    FixDebugPhoneBook(int pages, String city) {
         super(pages);
         area = city;
         if (pages > CUTOFF)

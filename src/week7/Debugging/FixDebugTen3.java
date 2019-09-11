@@ -6,7 +6,7 @@ import javax.swing.*;
 
 import static java.lang.Integer.parseInt;
 
-public class DebugTen3 {
+public class FixDebugTen3 {
     public static void main(String[] args) {
         String area, inStr;
         int pages;
@@ -15,7 +15,7 @@ public class DebugTen3 {
         inStr = JOptionPane.showInputDialog(null,
                 "Enter number of pages in " + area + "'s phone book");
         pages = parseInt(inStr);
-        DebugPhoneBook pb = new DebugPhoneBook(pages, area);
+        FixDebugPhoneBook pb = new FixDebugPhoneBook(pages, area);
         pb.display();
     }
 }
