@@ -11,7 +11,6 @@ public class FixDebugCustomerMakingPurchase extends FixDebugCustomer {
         overLimit = amountOfPurchase > creditLimit;
     }
 
-
     @Override
     public void display() {
         System.out.println("Purchase amount $" + amountOfPurchase);

@@ -6,14 +6,13 @@ import javax.swing.*;
 // for different floor plans
 // allows upper or lowercase data entry
 public class FixDebugEight3 {
-
-
     public static void main(String[] args) {
         String entry;
         char[] floorPlans = {'A', 'B', 'C'};
         int[] pricesInThousands = {145, 190, 235};
         char plan;
         int x, fp = 99;
+
         String prompt = "Please select a floor plan\n" +
                 "Our floorPlanss are:\n" + "A - Augusta, a ranch\n" +
                 "B - Brittany, a split level\n" +
@@ -29,8 +28,7 @@ public class FixDebugEight3 {
                     "Invalid floor plan code entered");
         else {
             JOptionPane.showMessageDialog(null, "Model " +
-                    plan + " is priced at only $" +
-                    pricesInThousands[fp] + ",000");
+                    plan + " is priced at only $" + pricesInThousands[fp] + ",000");
         }
     }
 }

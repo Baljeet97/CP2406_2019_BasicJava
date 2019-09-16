@@ -8,10 +8,11 @@ public class FixDebugTen4 {
         String name = "Franklin";
         double credit = 1000.00;
         double purchase = 1325.77;
+
         FixDebugCustomerMakingPurchase cardApproval = new
                 FixDebugCustomerMakingPurchase(id, name, credit, purchase);
 
-        FixDebugCustomer customerDetails = new FixDebugCustomer(id,name,credit);
+        FixDebugCustomer customerDetails = new FixDebugCustomer(id, name, credit);
 
         customerDetails.display();
         cardApproval.display();

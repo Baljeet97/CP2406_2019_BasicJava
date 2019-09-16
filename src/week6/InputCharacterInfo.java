@@ -19,6 +19,7 @@ public class InputCharacterInfo {
             System.out.println(aChar + " is lowercase");
         else
             System.out.println(aChar + " is not lowercase");
+
         aChar = Character.toLowerCase(aChar);
         System.out.println("After toLowerCase(), aChar is " + aChar);
         aChar = Character.toUpperCase(aChar);

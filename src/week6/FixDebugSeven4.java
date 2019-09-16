@@ -8,6 +8,7 @@ public class FixDebugSeven4 {
         String aString = "HELP!! I need to get 37 things DONE today!!";
         int numLetters = 0;
         int stringLength = aString.length();
+
         System.out.println("In all lowercase, the sentence is: ");
         for (int i = 0; i < aString.length(); i++) {
             char ch = Character.toLowerCase(aString.charAt(i));

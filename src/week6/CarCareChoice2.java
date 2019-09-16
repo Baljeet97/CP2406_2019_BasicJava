@@ -3,7 +3,6 @@ package week6;
 import java.util.Scanner;
 
 public class CarCareChoice2 {
-
     public static void main(String[] args) {
         String[] availableService = {"oil change", "tire rotation", "battery check", "brake inspection"};
         int[] price = {25, 22, 15, 5};

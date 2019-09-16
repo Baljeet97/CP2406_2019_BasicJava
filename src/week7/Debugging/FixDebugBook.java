@@ -8,7 +8,6 @@ public class FixDebugBook {
     }
 
     public int getPages() {
-
         return pages;
     }
 }

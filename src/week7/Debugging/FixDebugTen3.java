@@ -10,6 +10,7 @@ public class FixDebugTen3 {
     public static void main(String[] args) {
         String area, inStr;
         int pages;
+
         area = JOptionPane.showInputDialog(null,
                 "Enter city for phone book");
         inStr = JOptionPane.showInputDialog(null,

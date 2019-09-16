@@ -12,6 +12,7 @@ public class FixDebugEight1 {
         String entry, message;
         boolean found = false;
         char[] okayCodes = {'A', 'C', 'T', 'H'};
+
         StringBuffer prompt = new
                 StringBuffer("Enter shipping code for this delivery\nValid codes are: ");
         for (int x = 0; x < okayCodes.length; ++x) {
@@ -37,8 +38,6 @@ public class FixDebugEight1 {
             else
                 message = "Sorry code not found;";
             JOptionPane.showMessageDialog(null, message);
-
         }
-
     }
 }

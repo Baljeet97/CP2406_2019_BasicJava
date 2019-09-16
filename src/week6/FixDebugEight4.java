@@ -11,6 +11,7 @@ public class FixDebugEight4 {
         ArrayList<String> array = new ArrayList<>();
         String entry;
         final String STOP = "XXX";
+
         StringBuilder message = new
                 StringBuilder("The words in reverse order are\n");
 

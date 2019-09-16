@@ -1,9 +1,7 @@
 package week6;
 
 public class ArrayMethodDemo {
-
     public static void main(String[] args) {
-
         int[] integers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         allIntegers(integers);
         reverseIntegers(integers);
@@ -14,7 +12,6 @@ public class ArrayMethodDemo {
 
     private static void allIntegers(int[] integers) {
         System.out.println("All Integers");
-
         for (int i = 0; i < integers.length; i++) {
             System.out.println(i);
         }
@@ -22,7 +19,6 @@ public class ArrayMethodDemo {
 
     private static void reverseIntegers(int[] integers) {
         System.out.println("\nIntegers in reverse");
-
         for (int i = integers.length - 1; i >= 0; --i) {
             System.out.println(i + 1);
         }
@@ -41,7 +37,6 @@ public class ArrayMethodDemo {
         for (int i : integers) {
             if (i < limit) {
                 System.out.println(i);
-
             }
         }
     }
@@ -58,5 +53,4 @@ public class ArrayMethodDemo {
             if (i > avg)
                 System.out.println(i);
     }
-
 }

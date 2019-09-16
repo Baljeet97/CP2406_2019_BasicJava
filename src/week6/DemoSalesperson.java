@@ -1,8 +1,6 @@
 package week6;
 
 public class DemoSalesperson {
-
-
     public static void main(String[] args) {
         final double salesAmount = 0.0;
         final int idNumber = 9999;

@@ -15,6 +15,7 @@ public class FixDebugSeven2 {
         int lastSpace = -1;
         int sum = 0;
         String partStr;
+
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a series of integers separated by spaces >> ");
         str = in.nextLine();
@@ -32,7 +33,7 @@ public class FixDebugSeven2 {
         num = Integer.parseInt(partStr);
         System.out.println("                " + num);
         sum += num;
-        System.out.println("         -------------------" +
+        System.out.println("-------------------" +
                 "\nThe sum of the integers is " + sum);
     }
 }

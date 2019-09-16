@@ -1,7 +1,6 @@
 package week6;
 
 public class Salesperson {
-
     private int idNum;
     private double annualSalesAmount;
 
@@ -25,5 +24,4 @@ public class Salesperson {
     public void setAnnualSalesAmount(double newSaleAmount) {
         annualSalesAmount = newSaleAmount;
     }
-
 }

@@ -1,7 +1,6 @@
 package week6;
 
 public class FixDebugSeven1 {
-
     public static void main(String[] args) {
         String name1 = "Roger";
         String name2 = "Roger";
