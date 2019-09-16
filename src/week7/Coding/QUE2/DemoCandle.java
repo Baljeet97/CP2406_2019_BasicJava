@@ -13,10 +13,8 @@ public class DemoCandle {
         pinkSands.setHeight(15);
         pinkSands.setScent("Floral and Citrus");
 
-
         System.out.println("Unscented Candle" + "\nColor: " + macintosh.getColor() + "\nHeight(in Inches): " + macintosh.getHeight() + "\nPrice per Inch: $" + macintosh.getPrice());
         System.out.println();
         System.out.println("Scented Candle" + "\nColor: " + pinkSands.getColor() + "\nHeight(in Inches): " + pinkSands.getHeight() + "\nPrice Per Inch: $" + pinkSands.getPrice() + "\nScent: " + pinkSands.getScent());
-
     }
 }

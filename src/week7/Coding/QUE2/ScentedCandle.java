@@ -1,6 +1,6 @@
 package week7.Coding.QUE2;
 
-public class ScentedCandle extends Candle{
+public class ScentedCandle extends Candle {
 
     private String scent;
 
@@ -13,11 +13,9 @@ public class ScentedCandle extends Candle{
     }
 
     @Override
-    public void setHeight(int height){
+    public void setHeight(int height) {
         final int pricePerInch = 3;
         super.setHeight(height);
         price = height * pricePerInch;
-
     }
-
 }

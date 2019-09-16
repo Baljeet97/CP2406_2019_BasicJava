@@ -6,7 +6,6 @@ public class Horse {
     private String color;
     private int birthYear;
 
-
     public void setName(String name) {
         this.name = name;
     }

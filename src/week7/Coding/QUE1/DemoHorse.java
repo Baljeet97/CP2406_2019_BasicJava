@@ -3,7 +3,6 @@ package week7.Coding.QUE1;
 public class DemoHorse {
 
     public static void main(String[] args) {
-
         Horse horse = new Horse();
         RaceHorse race = new RaceHorse();
 
