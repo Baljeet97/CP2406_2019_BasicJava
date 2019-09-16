@@ -1,4 +1,4 @@
-package week7.Coding;
+package week7.Coding.QUE1;
 
 public class DemoHorse {
 

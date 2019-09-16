@@ -1,6 +1,4 @@
-package week7.Coding;
-
-import java.awt.*;
+package week7.Coding.QUE1;
 
 public class Horse {
 
