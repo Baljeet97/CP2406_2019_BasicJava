@@ -10,10 +10,10 @@ public class FixDebugEleven2 {
         ref[0] = redBoat;
         ref[1] = blueBoat;
         ref[2] = bigBoat;
-        for (int x = 0; x < ref.length; ++x) {
-            ref[x].setPassengers();
-            ref[x].setPower();
-            System.out.println(ref[x].toString());
+        for (DebugBoat debugBoat : ref) {
+            debugBoat.setPassengers();
+            debugBoat.setPower();
+            System.out.println(debugBoat.toString());
         }
     }
 }

@@ -12,7 +12,7 @@ abstract class Book {
         return price;
     }
 
-    public String getTitle() {
+    String getTitle() {
         return title;
     }
 
