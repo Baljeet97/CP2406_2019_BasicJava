@@ -3,7 +3,7 @@ package week8.Debugging;
 public abstract class DebugBoat {
     private String boatType;
     int passengers;
-    String power = "";
+    String power;
 
     DebugBoat(String bt) {
         boatType = bt;
