@@ -1,11 +1,11 @@
-package week9.Task2;
 // Program describes two files
 // tells you which one is newer and which one is larger
+
+package week9.Task2;
 
 import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.io.IOException;
-
 
 public class FixDebugThirteen1 {
     public static void main(String[] args) {
