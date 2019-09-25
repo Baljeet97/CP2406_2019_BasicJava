@@ -7,6 +7,7 @@ public class FixDebugTwelve2 {
     public static void main(String[] args) throws ArithmeticException {
         byte num1 = 120, num2 = 120, result;
         final byte HIGHBYTE = 127;
+
         try {
             byte allowed = (byte) (HIGHBYTE - num1);
             if (num2 > allowed)

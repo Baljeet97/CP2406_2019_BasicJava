@@ -12,6 +12,7 @@ public class FixDebugTwelve3 {
         int[] array = {12, 4, 6, 8};
         inStr = JOptionPane.showInputDialog(null, "Enter a number ");
         num = Integer.parseInt(inStr);
+
         try {
             for (int i : array) {
                 result = i / num;

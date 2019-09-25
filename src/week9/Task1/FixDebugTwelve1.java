@@ -4,6 +4,7 @@ package week9.Task1;
 public class FixDebugTwelve1 {
     public static void main(String[] args) throws ArithmeticException {
         double num = -8.8, result;
+
         try {
             if (num <= 0)
                 throw (new ArithmeticException());
