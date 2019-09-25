@@ -17,12 +17,12 @@ public class JBookQuote2 extends JFrame implements ActionListener {
         add(label);
         add(button);
         button.addActionListener(this);
+        setSize(300, 350);
+        setVisible(true);
     }
 
     public static void main(String[] args) {
         JBookQuote2 aFrame = new JBookQuote2();
-        aFrame.setSize(300, 200);
-        aFrame.setVisible(true);
     }
 
     @Override

@@ -12,11 +12,11 @@ public class JBookQuote extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(flow);
         add(label);
+        setSize(300, 200);
+        setVisible(true);
     }
 
     public static void main(String[] args) {
         JBookQuote aFrame = new JBookQuote();
-        aFrame.setSize(300, 200);
-        aFrame.setVisible(true);
     }
 }
