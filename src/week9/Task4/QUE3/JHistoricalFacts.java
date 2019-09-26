@@ -9,12 +9,12 @@ public class JHistoricalFacts extends JFrame implements ActionListener {
     private FlowLayout layout = new FlowLayout();
     int index;
     private JButton button = new JButton("Historical facts");
-    JLabel[] labels = {
-            new JLabel("Turkeys Were Once Worshipped Like Gods"),
-            new JLabel("Paul Revere Never Actually Shouted, “The British Are Coming"),
-            new JLabel("Captain Morgan Actually Existed"),
-            new JLabel("The Titanic‘s Owners Never Said the Ship Was “Unsinkable”"),
-            new JLabel("Cars Weren’t Invented in the United States")};
+    String[] labels = {
+            "Turkeys Were Once Worshipped Like Gods",
+            "Paul Revere Never Actually Shouted, “The British Are Coming",
+            "Captain Morgan Actually Existed",
+            "The Titanic‘s Owners Never Said the Ship Was “Unsinkable”",
+            "Cars Weren’t Invented in the United States"};
     JLabel quotes = new JLabel("");
 
 
@@ -37,19 +37,19 @@ public class JHistoricalFacts extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         switch (index) {
             case 0:
-                quotes.setText(labels[0].getText());
+                quotes.setText(labels[0]);
                 break;
             case 1:
-                quotes.setText(labels[1].getText());
+                quotes.setText(labels[1]);
                 break;
             case 2:
-                quotes.setText(labels[2].getText());
+                quotes.setText(labels[2]);
                 break;
             case 3:
-                quotes.setText(labels[3].getText());
+                quotes.setText(labels[3]);
                 break;
             case 4:
-                quotes.setText(labels[4].getText());
+                quotes.setText(labels[4]);
                 break;
         }
 
