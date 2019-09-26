@@ -16,8 +16,8 @@ public class JPizza extends JFrame implements ItemListener {
 
     int totalPrice = 0;
     String output;
-    int pPrice = 0;
-    int bPrice = 0;
+    int pPrice = 0; //Pizza Price
+    int bPrice = 0; //Base Price
     int[] toppingPrice = {0, 0, 1, 1, 1, 1, 1};
     int[] basePrice = {0, 7, 9, 11, 14};
 
