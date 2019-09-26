@@ -13,13 +13,13 @@ public class FixDebugFourteen4 extends JFrame implements ItemListener {
     String title = new String("Beverage Selector");
     Font bigFont = new Font("Arial", Font.PLAIN, 24);
     ButtonGroup drinkGrp = new ButtonGroup();
+    JLabel L1 = new JLabel("Drinks - ");
     JCheckBox cola = new JCheckBox("Cola", false);
     JCheckBox lemon = new JCheckBox("Lemonade", false);
     JCheckBox tea = new JCheckBox("Iced tea", false);
     JCheckBox milk = new JCheckBox("Milk", false);
     JCheckBox coffee = new JCheckBox("Coffee", false);
     JTextField totPrice = new JTextField(10);
-    String output;
     int totalPrice = 0;
     final int HIGH_PRICE = 3;
     final int LOW_PRICE = 2;
@@ -28,6 +28,7 @@ public class FixDebugFourteen4 extends JFrame implements ItemListener {
         super("Beverage Selector");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(flow);
+        add(L1);
         add(cola);
         cola.addItemListener(this);
         add(lemon);
