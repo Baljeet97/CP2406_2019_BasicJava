@@ -40,23 +40,15 @@ public class JColorFrame extends JFrame implements ActionListener {
         if (count == 1) {
             north.setBackground(Color.GREEN);
             south.setBackground(Color.WHITE);
-            west.setBackground(Color.WHITE);
-            east.setBackground(Color.WHITE);
         } else if (count == 2) {
             east.setBackground(Color.MAGENTA);
-            south.setBackground(Color.WHITE);
-            west.setBackground(Color.WHITE);
             north.setBackground(Color.WHITE);
         } else if (count == 3) {
             west.setBackground(Color.ORANGE);
             east.setBackground(Color.WHITE);
-            south.setBackground(Color.WHITE);
-            north.setBackground(Color.WHITE);
         } else if (count == 4) {
             south.setBackground(Color.RED);
-            east.setBackground(Color.WHITE);
             west.setBackground(Color.WHITE);
-            north.setBackground(Color.WHITE);
             count = 0;
         }
     }
