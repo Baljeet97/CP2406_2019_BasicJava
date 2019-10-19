@@ -17,7 +17,7 @@ public class FixDebugSixteen1 extends JPanel {
     @Override
     public void paintComponent(Graphics gr) {
         super.paintComponent(gr);
-        for (corner = 150, radius = 2; radius < 200; radius += 6, corner -= 3) {
+        for (corner = 150, radius = 2; radius < 200; radius += 6, corner -=3) {
             if (radius < 50)
                 gr.setColor(Color.RED);
             else if (radius < 100)
@@ -30,7 +30,7 @@ public class FixDebugSixteen1 extends JPanel {
         }
         gr.setFont(new Font("Arial", Font.ITALIC, 20));
         gr.setColor(Color.BLACK);
-        gr.drawString(msg, 100, 150);
+        gr.drawString(msg, 20, 15);
     }
 
     public static void main(String[] args) {
